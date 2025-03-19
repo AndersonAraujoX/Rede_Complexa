@@ -1,54 +1,65 @@
 # Análise de Redes Complexas
 
-Este repositório contém implementações de diversas métricas e algoritmos para análise de redes complexas.
+Este repositório contém a implementação de diversas métricas e algoritmos para análise de redes complexas, incluindo:
 
-## Implementações
-
-As implementações incluem métricas clássicas, análise de subgrafos e motivos em redes ponderadas, coeficientes de agrupamento, análise de variáveis canônicas, análise de componentes principais, reciprocidade de borda, análise de correlação, classificação de redes, caminhada determinística e o Autômato de Rede Vida-Semelhante (LLNA).
-
-### Métricas Clássicas
-
-Implementações de vulnerabilidade, coeficiente cíclico, coeficiente de rich-club, distribuição de graus e correlações, graus de bipartividade, informações de busca, entropia de estrada e saída, espectro da matriz de adjacência, centralidade de intermediação e maximização da modularidade estão presentes.
-
-### Subgrafos e Motivos em Redes Ponderadas
-
-Implementações para intensidade de um subgrafo e coerência. 
-
-### Coeficientes de Agrupamento
-
-Implementações para coeficiente médio de agrupamento e coeficiente médio de agrupamento hierárquico de segundo nível. 
-### Análise de Variáveis Canônicas
-
-Implementação da técnica de análise de regressão que envolve a criação de novas variáveis, conhecidas como variáveis canônicas. 
-
-### Análise do Componente Principal
-
-Implementação da técnica para encontrar um conjunto menor de variáveis que resumem as informações contidas em um conjunto original de variáveis. 
-### Reciprocidade de Borda
-
-Implementação para calcular a reciprocidade de borda em redes. 
-
-### Análise de Correlação
-
-Implementação para quantificar o grau de correlação entre duas medidas em um conjunto de redes. 
-
-### Classificação
-
-Implementações para classificação Bayesiana, DeepWalk e WalkSCAN. 
-
-### Caminhada Determinística
-
-Implementações para Entropia de Shannon e Entropia de Palavras. 
-
-### Autômato de Rede Vida-Semelhante (LLNA)
-
-Implementação do Autômato de Rede Vida-Semelhante, criado para reconhecer padrões em redes. 
+* **Métricas Clássicas:**
+   * Vulnerabilidade 
+   * Coeficiente Cíclico 
+   * Coeficiente de Rich-Club 
+   * Distribuição de Graus e Correlações 
+   * Graus de Bipartividade 
+   * Informações de Busca, Entropia de Estrada e Entropia de Saída
+   * Espectro da Matriz de Adjacência 
+   * Centralidade de Intermediação 
+   * Maximização da Modularidade 
+* **Subgrafos e Motivos em Redes Ponderadas:**
+   * Intensidade de um Subgrafo 
+   * Coerência 
+* **Coeficiente Médio de Agrupamento e Coeficiente Médio de Agrupamento Hierárquico de Segundo Nível** 
+* **Análise de Variáveis Canônicas** 
+* **Análise do Componente Principal** 
+* **Reciprocidade de Borda** 
+* **Análise de Correlação** 
+* **Classificação:**
+   * Bayesiano 
+   * DeepWalk 
+   * WalkSCAN 
+* **Caminhada Deterministica:**
+   * Entropia de Shannon 
+   * Entropia de Palavras 
+* **Autômato de Rede Vida-Semelhante (LLNA)** 
 
 ## Grafos Utilizados
 
-Implementações utilizando os modelos de grafos Strogatz-Watt, Erdos-Renyis, Barabasi-Albert, Karate Club e GrafoBrasilCovid.
+* **Strogatz-Watt:** Modelo de grafo aleatório com propriedades de pequeno mundo
+* **Erdos-Renyis:** Modelo para gerar grafos aleatórios.
+* **Barabasi-Albert:** Algoritmo para gerar redes sem escala
+* **Karate Club:** Biblioteca de aprendizado de máquina não supervisionada para NetworkX
+* **GrafoBrasilCovid:** Rede onde cada nó representa uma cidade e as arestas representam vias de locomoção
+
+## Resultados
+
+O repositório apresenta resultados para diversas métricas e algoritmos, incluindo:
+
+* Vulnerabilidade de diferentes tipos de grafos
+* Coeficiente Cíclico para diferentes tipos de grafos
+* Coeficiente de Rich-Club para grafos complexos
+* Relação entre coeficiente de agrupamento e coeficiente de agrupamento hierárquico
+* Transformação de grafos utilizando Análise de Variáveis Canônicas
+* Classificação de nós utilizando DeepWalk
+* Detecção de comunidades utilizando WalkSCAN.
+* Comparação entre Pagerank e Caminhada Aleatória.
+* Análise de Entropia de Shannon e Entropia de Palavras em diferentes tipos de grafos
+* Classificação de redes utilizando diferentes métricas e algoritmos
 
 ## Visualizações
 
-O repositório inclui visualizações de grafos e resultados de análises. 
+O repositório também inclui visualizações de grafos e resultados de análises, como:
 
+* Exemplos de grafos gerados (Strogatz-Watt, Erdos-Renyis, Barabasi-Albert, Karate Club)
+* Gráfico da média do grau dos nós
+* Grafo bipartido
+* Gráficos de entropia de entrada e saída
+* Gráfico dos autovalores da matriz de adjacência
+* Matrizes de confusão para diferentes classificadores
+* Scatter plots para visualização de resultados de classificação e análise de componentes principais
